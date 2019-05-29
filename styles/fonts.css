@@ -1,0 +1,11 @@
+@font-face {
+	font-family: "Cuprum";
+	src: url("../fonts/web/cuprum.woff") format("woff");
+	src: url("../fonts/web/cuprum.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "PTSans";
+	src: url("../fonts/web/ptsans.woff") format("woff");
+	src: url("../fonts/web/ptsans.woff2") format("woff2");
+}
