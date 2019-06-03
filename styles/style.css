@@ -693,7 +693,7 @@ p {
 /* tabs*/
 
 .tab-nav {
-
+	
 }
 
 .tab-nav ul {
@@ -706,28 +706,33 @@ p {
 
 .tab-nav ul li {
 	background-color: #32425c;
-	/*width: 240px;
-	height: 60px;*/
-	padding: 20px 140px 21px 22px;
-	box-shadow: 0 -1px #41516a;
+	padding: 20px 0 0 23px;
+}
+
+.test {
+	box-sizing: border-box;
+	width: 240px;
+	height: 60px;
+	background-color: #32425c;
 }
 
 .tab-nav ul li a {
 	display: inline-block;
-	font-size: 21px;
+	font-weight: bold;
+	font-size: 16px;
 	font-family: Cuprum, Arial, sans-serif;
 	color: #fff;
 	font-family: sans-serif;
-	margin-right: 30px;
 	text-decoration: none;
-	border-bottom: 3px transparent solid;
 	padding-bottom: 3px;
 }
 
 .tab-nav ul li a.active {
 	background-color: #fff;
-
 	color: #32425c;
+	
+	
+
 }
 
 #one {
